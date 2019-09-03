@@ -1,0 +1,9 @@
+listen="0.0.0.0:3129"
+access_log="/dev/stdout"
+activity_log="/dev/stderr"
+allowed_connect_ports=[443, 80]
+#auth_file="auth.txt"
+#auth_type="basic"
+#auth_realm="proxy"
+forwarded_for_header="on"
+allowed_networks=["0.0.0.0/0"]
